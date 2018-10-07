@@ -1,0 +1,142 @@
+@media (min-width: 600px) and (max-width: 768px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5
+    }
+}
+
+.linkModal a {
+    text-decoration: none;
+    outline: none;
+    cursor: zoom-in;
+}
+
+.linkModal:hover {
+    box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.10);
+}
+
+.photoCard {
+    border-radius: 25px;
+}
+
+.titlePhoto {
+    font-size: 18px;
+    color: #525252;
+}
+
+.titlePhotoModal {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #525252;
+}
+
+.pintPhoto {
+    color: #999999;
+    font-size: 14px;
+}
+
+.avatarCard {
+    width: 35px;
+    height: 35px;
+    background-color: #ECCFC7;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+}
+
+.authorPhoto {
+    padding-top: 4px;
+    margin-left: 40px;
+    color: #525252;
+}
+
+.showColor {
+    background-color: #EFEFEF;
+}
+
+.pinsModal {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #999999
+}
+
+.btnModal {
+    margin-right: 18px;
+    margin-top: -27px;
+    float: right;
+}
+
+.titlePhotoModal {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #525252;
+}
+
+.photoCard {
+    border-radius: 25px;
+}
+
+.infoFooterModal {
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.avatarCard {
+    width: 35px;
+    height: 35px;
+    background-color: #ECCFC7;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+}
+
+.authorPhoto {
+    padding-top: 4px;
+    margin-left: 40px;
+    color: #525252;
+}
+
+.btnRead {
+    float: right;
+    margin-top: -45px;
+    margin-right: 19px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    width: 75px;
+    padding: 5px;
+    color: #666666;
+}
+
+.descripcionModalFooter {
+    padding: 15px;
+}
+
+.descriptionPhoto {
+    font-size: 14px;
+    color: #525252;
+}
