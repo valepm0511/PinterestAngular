@@ -1,0 +1,45 @@
+.containerMenu {
+    margin-bottom: -8px
+}
+
+.iconNav i {
+    font-size: 40px;
+}
+
+.iconNav {
+    margin-left: 16px;
+    margin-top: 2px;
+}
+
+.searchNav {
+    height: 45px;
+    background-color: #E9ECEF;
+}
+
+.iconSearch {
+    color: #999999;
+    font-size: 20px;
+}
+
+.linkNav {
+    margin-top: -10px;
+}
+
+.btnNav {
+    color: #8E8E8E;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: -43px;
+    margin-left: 25px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.btnNav:hover {
+    background: #E9ECEF;
+    border-radius: 30px;
+}
+
+.activeLink {
+    color: #3E3F41 !important;
+}
