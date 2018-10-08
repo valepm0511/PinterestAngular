@@ -2,7 +2,7 @@
     <div class="row">
         <div class="card-columns" id="contentCard">
             <div class="card border-0 mt-5 linkModal p-2" *ngFor="let photoCard of photoJSON">
-                <a href="#" data-toggle="modal" data-target="#id{{photoCard.id}}" class="">
+                <a href="#id{{photoCard.id}}" data-toggle="modal" data-target="#id{{photoCard.id}}" class="">
                     <img class="card-img-top photoCard" src="{{photoCard.urlPhoto}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title titlePhoto">{{photoCard.namePhoto}}</h5>
@@ -14,11 +14,13 @@
                     </div>
                 </a>
             </div>
+
             <!-- MODAL-->
-            <div class="modal fade showColor" id="id${{photoCard.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" *ngFor="let photoCard of photoJSON">
+            <!-- <app-modal-photo></app-modal-photo> -->
+            <div *ngFor="let photoCard of photoJSON" class="modal fade showColor" id="id{{photoCard.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <button type="button" class="close mr-2 mt-2" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-              </button>
+                    <span aria-hidden="true">&times;</span>
+                </button>
                 <div class="modal-dialog modal-dialog-centered w-50" role="document">
                     <div class="modal-content  border-0 rounded">
                         <div class="header">
@@ -47,7 +49,7 @@
                             <button class="btnRead">Leerlo</button>
                         </div>
                         <div class="descripcionModalFooter">
-                            <p class="a">{{photoCard.description}}</p>
+                            <p class="descriptionPhoto">{{photoCard.description}</p>
                         </div>
                     </div>
                 </div>

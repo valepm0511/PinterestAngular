@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContainerPhotoComponent implements OnInit {
   public photoJSON : string;
+  public id : string;
 
 constructor() { }
 

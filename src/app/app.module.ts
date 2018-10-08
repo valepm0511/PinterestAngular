@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BtnFloatComponent } from './components/btn-float/btn-float.component';
 import { ContainerPhotoComponent } from './components/container-photo/container-photo.component';
+import { ModalPhotoComponent } from './components/modal-photo/modal-photo.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ContainerPhotoComponent } from './components/container-photo/container-
     HeaderComponent,
     NavComponent,
     BtnFloatComponent,
-    ContainerPhotoComponent
+    ContainerPhotoComponent,
+    ModalPhotoComponent
   ],
   imports: [
     BrowserModule
