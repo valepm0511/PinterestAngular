@@ -43,7 +43,7 @@
 }
 
 .contentBtnPin {
-    background-color: #EFEFEF;
+    /* background-color: #EFEFEF; */
     border-radius: 50px;
 }
 
@@ -51,7 +51,7 @@
     background: #ffffff;
     border: 2px solid #EFEFEF;
     font-weight: 500;
-    margin-right: -10px;
+    margin-right: -3px;
     font-size: 14px;
     color: #666;
 }
