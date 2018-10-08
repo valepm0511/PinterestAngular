@@ -1,11 +1,11 @@
 <div class="container">
     <div class="row">
-        <div class="card-columns" id="contentCard" *ngFor="let photoCard of photoJSON">
-            <div class="card border-0 mt-5 linkModal p-2">
+        <div class="card-columns" id="contentCard">
+            <div class="card border-0 mt-5 linkModal p-2" *ngFor="let photoCard of photoJSON">
                 <a href="#" data-toggle="modal" data-target="#id{{photoCard.id}}" class="">
                     <img class="card-img-top photoCard" src="{{photoCard.urlPhoto}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title titlePhoto">{{photoCard.namePhoto}</h5>
+                        <h5 class="card-title titlePhoto">{{photoCard.namePhoto}}</h5>
                         <p class="pintPhoto float-left pr-3 ml-3"><i class="fas fa-thumbtack"></i> 32,2</p>
                         <p class="pintPhoto"><i class="fas fa-check"></i> 11</p>
                         <p class="card-text descriptionPhoto">{{photoCard.description}}</p>
@@ -15,7 +15,7 @@
                 </a>
             </div>
             <!-- MODAL-->
-            <div class="modal fade showColor" id="id${photoCard.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade showColor" id="id${{photoCard.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" *ngFor="let photoCard of photoJSON">
                 <button type="button" class="close mr-2 mt-2" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
               </button>
