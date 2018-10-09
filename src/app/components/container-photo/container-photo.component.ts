@@ -12,7 +12,7 @@ export class ContainerPhotoComponent implements OnInit {
 constructor() { }
 
 ngOnInit() {
-   fetch('../../../assets/photos.json')
+   fetch('assets/photos.json')
     .then(res => res.json())
     .then(photoJSON => {
         console.log(photoJSON);
